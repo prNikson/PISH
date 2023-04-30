@@ -23,7 +23,7 @@ def contacts():
 
 @app.route("/auth")
 def auth():
-    return "auth"
+    return render_template("auth.html")
 
 @app.route("/registration")
 def registation():
