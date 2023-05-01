@@ -19,11 +19,11 @@ def organizations():
 
 @app.route("/contacts")
 def contacts():
-    return "Contacts"
+    return render_template("contacts.html")
 
 @app.route("/auth")
 def auth():
-    return render_template("auth.html")
+    return "Auth"
 
 @app.route("/registration")
 def registation():
