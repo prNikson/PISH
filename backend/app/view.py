@@ -5,10 +5,6 @@ from flask import render_template
 def homepage():
     return render_template("index.html")
 
-@app.route("/news")
-def news():
-   return "News"
-
 @app.route("/events")
 def events():
     return "Events"

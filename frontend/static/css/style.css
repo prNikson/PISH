@@ -22,6 +22,7 @@
   opacity: 0; 
   pointer-events: none; 
   transition: 0.5s all;
+  z-index:-1;
 }
 
 #auth.active, #registration.active, #newpass.active {
@@ -30,6 +31,7 @@
   pointer-events: all;
   transition: 0.5s all;
 }
+
 
 .orange{
   font-weight: bold;

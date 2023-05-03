@@ -21,7 +21,7 @@
             </a>
       
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="margin-left: 20px;">
-              <li><a href="/" class="nav-link px-2 text-secondary">Главная</a></li>
+              <li><a href="/" class="nav-link px-2 text-dark">Главная</a></li>
               <li><a href="/news" class="nav-link px-2 text-dark">Новости</a></li>
               <li><a href="/events" class="nav-link px-2 text-dark">Мероприятия</a></li>
               <li><a href="/organizations" class="nav-link px-2 text-dark">Организации</a></li>
@@ -43,7 +43,7 @@
    {% block content %}
    {% endblock %}
   
-   <div id="newpass" class="zatemnenie">
+   <div id="newpass">
     <div class="modal modal-sheet position-static d-block  p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
         <div class="modal-dialog" role="document">
           <div class="modal-content rounded-4 shadow">
@@ -59,7 +59,7 @@
                         <label for="floatingInput">Email</label>
                     </div>
                     <small class="text-body-secondary">Мы вышлем вам новый пароль на почту</small><br/><br/>
-                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Восстановить</button>
+                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-warning" type="submit">Восстановить</button>
                 </form>
             </div>
           </div>
@@ -68,7 +68,7 @@
   </div>
 
   
-   <div id="auth" class="zatemnenie">
+   <div id="auth">
     <div class="modal modal-sheet position-static d-block  p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
         <div class="modal-dialog" role="document">
           <div class="modal-content rounded-4 shadow">
@@ -87,7 +87,7 @@
                   <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
                   <label for="floatingPassword">Пароль</label>
                 </div>
-                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Войти</button>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-warning" type="submit">Войти</button>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
                     <label class="form-check-label" for="flexCheckIndeterminate">
@@ -95,7 +95,7 @@
                     </label>
                   </div>
                   <small class="text-body-secondary">Забыл пароль? <a class="pop-up-newpass" href="#">Восстановить</a></small><br/>
-                  <small class="text-body-secondary">Нет аккаунта? <a class="pop-up-registration" href="">Зарегестрироваться</a></small>
+                  <small class="text-body-secondary">Нет аккаунта? <a class="pop-up-registration" href="">Зарегистрироваться</a></small>
               </form>
             </div>
           </div>
@@ -103,7 +103,7 @@
       </div>
   </div>
   
-  <div id="registration" class="zatemnenie">
+  <div id="registration">
     <div class="modal modal-sheet position-static d-block  p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
         <div class="modal-dialog" role="document">
           <div class="modal-content rounded-4 shadow">
@@ -146,7 +146,7 @@
                     <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Повторите пароль</label>
                 </div>
-                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Войти</button>
+                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-warning" type="submit">Зарегистрироваться</button>
                   <small class="text-body-secondary">Уже есть аккаунт? <a class="pop-up-auth" href="">Авторизоваться</a></small>
               </form>
             </div>
